@@ -1,0 +1,81 @@
+{
+  "_args": [
+    [
+      "elation-share@*",
+      "/home/vaze/janusweb/node_modules/elation-engine"
+    ]
+  ],
+  "_from": "elation-share@*",
+  "_id": "elation-share@1.0.9",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/elation-share",
+  "_nodeVersion": "0.10.35",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/elation-share-1.0.9.tgz_1492516867264_0.777323926333338"
+  },
+  "_npmUser": {
+    "email": "james_npm@baicoianu.com",
+    "name": "jbaicoianu"
+  },
+  "_npmVersion": "4.1.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "elation-share",
+    "raw": "elation-share@*",
+    "rawSpec": "*",
+    "scope": null,
+    "spec": "*",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/elation-engine"
+  ],
+  "_resolved": "https://registry.npmjs.org/elation-share/-/elation-share-1.0.9.tgz",
+  "_shasum": "e8d8316f209792b464590a05b77396b5f210f287",
+  "_shrinkwrap": null,
+  "_spec": "elation-share@*",
+  "_where": "/home/vaze/janusweb/node_modules/elation-engine",
+  "author": {
+    "name": "James Baicoianu"
+  },
+  "bugs": {
+    "url": "https://github.com/jbaicoianu/elation-share/issues"
+  },
+  "dependencies": {
+    "elation": ">=2.0.0"
+  },
+  "description": "Elation component for easy social sharing in the browser",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "e8d8316f209792b464590a05b77396b5f210f287",
+    "tarball": "https://registry.npmjs.org/elation-share/-/elation-share-1.0.9.tgz"
+  },
+  "gitHead": "c77a7f936a61d200b3e51273c0f51ec97a1b35ba",
+  "homepage": "https://github.com/jbaicoianu/elation-share#readme",
+  "keywords": [
+    "browser",
+    "elation",
+    "share",
+    "social"
+  ],
+  "license": "MIT",
+  "main": "",
+  "maintainers": [
+    {
+      "name": "jbaicoianu",
+      "email": "james_npm@baicoianu.com"
+    }
+  ],
+  "name": "elation-share",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbaicoianu/elation-share.git"
+  },
+  "scripts": {},
+  "version": "1.0.9"
+}

@@ -1,0 +1,83 @@
+{
+  "_args": [
+    [
+      "cyclone-physics@*",
+      "/home/vaze/janusweb/node_modules/elation-engine"
+    ]
+  ],
+  "_from": "cyclone-physics@*",
+  "_id": "cyclone-physics@1.0.9",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/cyclone-physics",
+  "_nodeVersion": "6.12.3",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/cyclone-physics_1.0.9_1523160860002_0.5572920569214537"
+  },
+  "_npmUser": {
+    "email": "james_npm@baicoianu.com",
+    "name": "jbaicoianu"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "cyclone-physics",
+    "raw": "cyclone-physics@*",
+    "rawSpec": "*",
+    "scope": null,
+    "spec": "*",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/elation-engine"
+  ],
+  "_resolved": "https://registry.npmjs.org/cyclone-physics/-/cyclone-physics-1.0.9.tgz",
+  "_shasum": "a4343ff2132f2118abc043ca3d85c8ab276f141c",
+  "_shrinkwrap": null,
+  "_spec": "cyclone-physics@*",
+  "_where": "/home/vaze/janusweb/node_modules/elation-engine",
+  "author": {
+    "name": "James Baicoianu"
+  },
+  "bugs": {
+    "url": "https://github.com/jbaicoianu/cyclone-physics-js/issues"
+  },
+  "dependencies": {
+    "elation": ">=2.0.0"
+  },
+  "description": "Pure Javascript physics engine based on http://procyclone.com/",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "fileCount": 16,
+    "shasum": "a4343ff2132f2118abc043ca3d85c8ab276f141c",
+    "tarball": "https://registry.npmjs.org/cyclone-physics/-/cyclone-physics-1.0.9.tgz",
+    "unpackedSize": 131380
+  },
+  "gitHead": "ed2928da3eff14d48f90a06c68d10545d8074687",
+  "homepage": "https://github.com/jbaicoianu/cyclone-physics-js#readme",
+  "keywords": [
+    "browser",
+    "elation",
+    "node",
+    "physics"
+  ],
+  "license": "MIT",
+  "main": "",
+  "maintainers": [
+    {
+      "name": "jbaicoianu",
+      "email": "james_npm@baicoianu.com"
+    }
+  ],
+  "name": "cyclone-physics",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbaicoianu/cyclone-physics-js.git"
+  },
+  "scripts": {},
+  "version": "1.0.9"
+}

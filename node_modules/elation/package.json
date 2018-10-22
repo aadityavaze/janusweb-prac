@@ -1,0 +1,83 @@
+{
+  "_args": [
+    [
+      "elation@>=2.2.10",
+      "/home/vaze/janusweb/node_modules/elation-engine"
+    ]
+  ],
+  "_from": "elation@>=2.2.10",
+  "_hasShrinkwrap": false,
+  "_id": "elation@2.2.10",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/elation",
+  "_nodeVersion": "6.14.4",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/elation_2.2.10_1539122429330_0.6711973935580244"
+  },
+  "_npmUser": {
+    "email": "james_npm@baicoianu.com",
+    "name": "jbaicoianu"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "elation",
+    "raw": "elation@>=2.2.10",
+    "rawSpec": ">=2.2.10",
+    "scope": null,
+    "spec": ">=2.2.10",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/cyclone-physics",
+    "/elation-engine",
+    "/elation-share"
+  ],
+  "_resolved": "https://registry.npmjs.org/elation/-/elation-2.2.10.tgz",
+  "_shasum": "9d0a08f9e9332c8f3582d9bbd59cb0f9ae1c8ecd",
+  "_shrinkwrap": null,
+  "_spec": "elation@>=2.2.10",
+  "_where": "/home/vaze/janusweb/node_modules/elation-engine",
+  "author": {
+    "name": "James Baicoianu"
+  },
+  "bugs": {
+    "url": "https://github.com/jbaicoianu/elation/issues"
+  },
+  "dependencies": {},
+  "description": "Elation Javascript Component Framework",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "fileCount": 464,
+    "integrity": "sha512-XsnDUB8xlkWPWpVByzArH16r3VmaiFYmB8Iq36+gBamBfI/bl7tNqXoKvxN1GGEKxMNVtdlIDZF+k4b/Efr8sA==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbvST+CRA9TVsSAnZWagAAEU8P/1545ccTbPDMTT8z6mF9\n+Yk865TfzuG50cYjsMgUv/118BRI1rsESWZxdxsSzJO7XleTM2Sc32O/w2Ui\n7VaOlWDIJse09wQGD/uIvveB1to0hYv8G+Y1zcvxbHRbtlHIRXksacWwDGQE\nj69IDQqo2MKk+7lqmWzwcwn8zqf+bVzdH/iS7KPq0lnPaYSqEgSU/RCenkCF\n40U3l10eeOPcwxG35E4PUhuMyUoJrdy59am693DpA1IgRySypSOvdm0OqzMz\nEWGdjAClZIeJXsbv/tOzozJLw3+kXs+BYgcZJcsWr24r/oxsh7gAx16Ioscf\nAO6b/AmeAbDRxnm8V/RQxPYR+k/PyS61gOAYNBwJPH4MRmx1J3Po1q/A2TKg\n/4TjRyjV8Gql24mlAe3kQLArSsGxEakn23+jzT67dsP4l4xX/oeVAj3T9g96\no8ctXrSj6R88OS9XpiwBisLuyLQzAQCorwDv0KhxpxdU+ia4qQg3R0X8rmuJ\nWbTGQsuAVmoMVd0X2LBpHQdUmHhlhkuVRlVmkRWczhvXtdJFLpcjJyaJBRAu\nvVDe6te501fQUqTElQnt80d1mWqfufEsxyvVk6IQ9Cl6+G5jl/dksfM+nmpd\nHa+a3d1cxDoQyeMrlsbU9sdMFsZeBZ988nImhQ9htsGGJJiBTGBEeYn8lZWB\nbEkP\r\n=Pp4y\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "9d0a08f9e9332c8f3582d9bbd59cb0f9ae1c8ecd",
+    "tarball": "https://registry.npmjs.org/elation/-/elation-2.2.10.tgz",
+    "unpackedSize": 10473903
+  },
+  "gitHead": "537937d06628026d3c1eb00f1d2c2edfabcbb8da",
+  "homepage": "https://github.com/jbaicoianu/elation#readme",
+  "keywords": [
+    "elation"
+  ],
+  "license": "MIT",
+  "main": "build/elation.js",
+  "maintainers": [
+    {
+      "name": "jbaicoianu",
+      "email": "james_npm@baicoianu.com"
+    }
+  ],
+  "name": "elation",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbaicoianu/elation.git"
+  },
+  "scripts": {},
+  "version": "2.2.10"
+}

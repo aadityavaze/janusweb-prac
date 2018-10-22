@@ -1,0 +1,88 @@
+{
+  "_args": [
+    [
+      "elation-engine@>=0.9.73",
+      "/home/vaze/janusweb"
+    ]
+  ],
+  "_from": "elation-engine@>=0.9.73",
+  "_hasShrinkwrap": false,
+  "_id": "elation-engine@0.9.76",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/elation-engine",
+  "_nodeVersion": "6.14.4",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/elation-engine_0.9.76_1539123980759_0.3713057109220532"
+  },
+  "_npmUser": {
+    "email": "james_npm@baicoianu.com",
+    "name": "jbaicoianu"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "elation-engine",
+    "raw": "elation-engine@>=0.9.73",
+    "rawSpec": ">=0.9.73",
+    "scope": null,
+    "spec": ">=0.9.73",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/elation-engine/-/elation-engine-0.9.76.tgz",
+  "_shasum": "e257d046bf7cd5378e133b0be7b79ec0f9a898b4",
+  "_shrinkwrap": null,
+  "_spec": "elation-engine@>=0.9.73",
+  "_where": "/home/vaze/janusweb",
+  "author": {
+    "name": "James Baicoianu"
+  },
+  "bugs": {
+    "url": "https://github.com/jbaicoianu/elation-engine/issues"
+  },
+  "dependencies": {
+    "cyclone-physics": "*",
+    "elation": ">=2.2.10",
+    "elation-share": "*"
+  },
+  "description": "WebGL/WebVR engine written in Javascript",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "fileCount": 104,
+    "integrity": "sha512-bEpJ205HET+rOhpsusb9q9jcvN2mEzKmYcOsD2gIglgtW6Z0grUnPK5YJGH9USBNUndpP3ptXw63WbEE+lZjHg==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbvSsNCRA9TVsSAnZWagAArgAP/1cYZXyee9tA6PG/3Tz4\n2juMctzL5FmVZhOGqld82blgeytO++1bIdjWmPVkf7u+ysqdjFH1Ys0IEquk\nEpwGmej6lhZfUJbfkIacSXTbeIjiYTu0TCntPUZkU42QbSYVArECevc318vZ\nfLyIpH5f/d6V9thuO5j7F5VfDUb26vIJ01W0bgxLV2sCjBdwxC0gIXEbMtI6\nCe96GDmsNny2l2Yr2ARZTVGsIjSufeHv88Ya/txXBzm++eVWPiVge2lXz3YG\n7f23Pu4stPyHrKVItvNID2IQQk7SbTpbJKNmF+bEJ3phfNtVgYCXbZdvsjFx\n0uNlFIZ6WFWrfgl/ZwIFwcQSTnDxMqBy1CmPTXzWZlHYqRmDsFpwmlLOWqS1\nGjqI6gZj3Rp4OW01jZtASAsqd7892CoZr+o+gPZETvU4QGI91dH4Jg/fZMWw\n+Bv2v/rHlc4S7TQ19fljoaXLjzWHb7A396+FWJEuiqrfWE/L36Xrbs+U/Fpc\nt7tK8uN5jPU1Dw63Ia6Kj7+0Gal1cMdaJgABJuTNGXxMB6b19uGN6shA6+rM\nVmKDCU2OUe1Bh+6+Hnn2egyNb1VYzbmOensT+2T6iL/3CiMw6OLXdteQ/7DD\nInsuPrDHMFaRBMmOHj1JdTHXMB21AH9KOtyZ9MKMbEL/GC1rRwW/N+2FmH4Q\niCtJ\r\n=eALQ\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "e257d046bf7cd5378e133b0be7b79ec0f9a898b4",
+    "tarball": "https://registry.npmjs.org/elation-engine/-/elation-engine-0.9.76.tgz",
+    "unpackedSize": 16485147
+  },
+  "gitHead": "ca529393ecd2886a0da0b2b6cf562ed73c095651",
+  "homepage": "https://github.com/jbaicoianu/elation-engine#readme",
+  "keywords": [
+    "elation",
+    "three.js",
+    "webgl",
+    "webvr"
+  ],
+  "license": "MIT",
+  "main": "",
+  "maintainers": [
+    {
+      "name": "jbaicoianu",
+      "email": "james_npm@baicoianu.com"
+    }
+  ],
+  "name": "elation-engine",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbaicoianu/elation-engine.git"
+  },
+  "scripts": {},
+  "version": "0.9.76"
+}
