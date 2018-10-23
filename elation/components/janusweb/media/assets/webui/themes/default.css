@@ -25,6 +25,13 @@ h2 {
   color: black;
 }
 
+
+h3 {
+    padding: 2px;
+    margin-bottom: 2px;
+    font-size: 1.1em;
+}
+
 .dark *.error {
   color: red;
 }
@@ -44,8 +51,7 @@ ui-checklist {
   list-style: none;
   position: relative;
   overflow: auto;
-  border-radius: .5em;
-  border: 1px solid #111;
+  border-radius: 0em;
   background: rgba(0,0,0,.1);
   margin: 0;
   padding: 0;
@@ -56,9 +62,7 @@ ui-checklist>ui-checklistitem {
   transform: translate3d(0, 0, 0);
   position: relative;
   user-select: none;
-  border: 1px solid transparent;
   padding: .2em .5em;
-  border-bottom: 1px solid rgba(0,0,0,.2);
 }
 ui-list>ui-item:first-of-type
 ui-checklist>ui-checklistitem:first-of-type {
@@ -69,11 +73,11 @@ ui-checklist>ui-checklistitem:last-of-type {
 }
 ui-list>ui-item[hover],
 ui-checklist>ui-checklistitem[hover] {
-  background-color: rgba(128,128,255,.05);
+  background-color: rgba(226, 226, 226, 0.19);
 }
 ui-list>ui-item.state_selected,
 ui-checklist>ui-checklistitem.state_selected {
-  background: rgba(128,128,255,.5);
+  background: rgba(150, 150, 150, 0.5);
 }
 ui-list[selectable] {
   cursor: text;
@@ -105,14 +109,13 @@ ui-grid[scrollable-y] {
 }
 ui-grid>ui-item {
   display: inline-block;
-  border-radius: .5em;
-  border: 1px solid #111;
+  border-radius: 0em;
   background: rgba(0,0,0,.1);
   margin: .2em;
   padding: .2em;
 }
 ui-grid>ui-item[hover] {
-  background-color: rgba(128,128,255,.2);
+  background-color: rgba(203, 203, 203, 0.06);
 }
 ui-grid.twocolumn>ui-item {
   width: 50%;
@@ -158,16 +161,16 @@ ui-tab {
 ui-tabs>ui-tab {
   display: none;
   position: relative;
-  border: 1px solid black;
+  border: 0px solid black;
   border-top: 0;
   padding: .5em;
-  background: #3a3f44;
+  background: #4e4e4e;
 }
 ui-tabs>ui-tabbar {
   position: relative;
   display: block;
-  color: white;
-  border-bottom: 1px solid #1c1e22;
+  color: #efefef;
+  border-bottom: 0px solid #1c1e22;
   font-size: .8em;
   z-index: -1px;
   order: -1;
@@ -178,9 +181,9 @@ ui-tabs>ui-tabbar>ui-tabcountbutton {
   min-width: 5em;
   text-align: center;
   padding: .25em .4em;
-  border: 1px solid #1c1e22;
-  border-bottom: 1px solid #1c1e22;
-  border-radius: .5em .5em 0 0;
+  border: 0px solid #1c1e22;
+  border-bottom: 0px solid #1c1e22;
+  border-radius: 0;
   margin-bottom: 0;
   white-space: nowrap;
   display: inline-block;
@@ -189,17 +192,11 @@ ui-tabs>ui-tabbar>ui-button[selected],
 ui-tabs>ui-tabbar>ui-button[selected][hover],
 ui-tabs>ui-tabbar>ui-tabcountbutton[selected],
 ui-tabs>ui-tabbar>ui-tabcountbutton[selected][hover] {
-  background-color: #4cb96f;
+  background-color: rgba(78, 78, 78, 0.58);
   background-repeat: no-repeat;
-
-  border: 1px solid #1c1e22;
-  border-bottom-color: transparent;
 }
 ui-tabs>ui-tabbar>ui-button[hover],
 ui-tabs>ui-tabbar>ui-tabcountbutton[hover] {
-  background-image: linear-gradient(rgba(128,128,128,1), rgba(128,128,128,1) 60%, rgba(128,128,128,1));
-  background-repeat: no-repeat;
-  border-color: #1c1e22 #1c1e22 transparent #1c1e22;
 }
 ui-tabs>ui-tabbar>ui-button[disabled],
 ui-tabs>ui-tabbar>ui-tabcountbutton[disabled] {
@@ -243,7 +240,7 @@ ui-flexpanel {
   display: flex;
   width: calc(100% - 1em);
   height: calc(100% - 1em);
-  padding: .5em;
+  padding: 0;
 }
 ui-flexpanel[vertical] {
   flex-direction: column;
@@ -262,12 +259,9 @@ ui-window {
   left: 0;
   vertical-align: top;
   z-index: 5;
-  border: 1px solid black;
-  background-color: rgba(0,0,0,.5);
-  border-radius: .5em;
-  border: 1px solid #666;
-  box-shadow: 1px 1px 10px rgba(0,0,0,1);
-  color: white;
+  border: 0px;
+  background-color: rgba(54, 54, 54, 0.88);
+  border-radius: 0.2em;
 }
 ui-window>ui-window-titlebar {
   display: flex;
@@ -281,7 +275,7 @@ ui-window>ui-window-titlebar {
   overflow: hidden;
   white-space: nowrap;
   vertical-align: middle;
-  border-bottom: 1px solid #666;
+  border-bottom: 1px solid #5a5a5a;
 }
 ui-window.state_movable>ui-window-titlebar:hover {
   cursor: -webkit-grab;
@@ -313,8 +307,8 @@ ui-window>.ui_window_resizer {
   width: 16px;
   height: 16px;
   cursor: se-resize;
-  border-bottom: 2px solid #ccc;
-  border-right: 2px solid #ccc;
+  border-bottom: 0px solid #ccc;
+  border-right: 0px solid #ccc;
   border-radius: 0 0 5px 0;
   z-index: 10;
 }
@@ -345,25 +339,25 @@ ui-window[left]>.ui_window_resizer {
   right: -2px;
   left: auto;
   border-left: 0;
-  border-right: 2px solid #ccc;
+  border-right: 0px solid #ccc;
 }
 ui-window[right]>.ui_window_resizer {
   right: auto;
   left: -2px;
   border-right: 0;
-  border-left: 2px solid #ccc;
+  border-left: 0px solid #ccc;
 }
 ui-window[top]>.ui_window_resizer {
   bottom: -2px;
   top: auto;
   border-top: 0;
-  border-bottom: 2px solid #ccc;
+  border-bottom: 0px solid #ccc;
 }
 ui-window[bottom]>.ui_window_resizer {
   top: -2px;
   bottom: auto;
   border-bottom: 0;
-  border-top: 2px solid #ccc;
+  border-top: 0px solid #ccc;
 }
 ui-window[top][right]>.ui_window_resizer {
   border-radius: 0 0 0 5px;
@@ -500,7 +494,7 @@ ui-toggle>div::before {
   right: 0;
   bottom: 0;
   width: 50%;
-  background: #700;
+  background: #ef5252;
   content: ' ';
   z-index: -1;
   border-radius: 0 .5em .5em 0;
@@ -521,7 +515,7 @@ ui-toggle>div::after {
 ui-toggle[checked]>div::before {
   right: auto;
   left: 0;
-  background: green;
+  background: #47b747;
   box-shadow: -2px 0 5px rgba(0,0,0,.8);
   border-radius: .5em 0 0 .5em;
 }
@@ -652,7 +646,6 @@ ui-tabcountbutton,
 ui-notificationbutton {
   display: inline-block;
   border: none;
-  border-radius: .5em;
   padding: .25em .5em;
   color: white;
   cursor: pointer;
@@ -660,23 +653,21 @@ ui-notificationbutton {
   -ms-user-select: none;
   -moz-user-select: none;
   user-select: none;
-
-  background-image: linear-gradient(#484e55, #3a3f44 60%, #313539);
-  background-color: transparent;
+  background-color: #343434;
 }
 ui-button[hover],
 ui-togglebutton[hover],
 ui-dropdownbutton[hover],
 ui-tabcountbutton[hover],
 ui-notificationbutton[hover] {
-  background-image: linear-gradient(#323232, #404142 40%, #393b3d);
+  background-color: rgba(47, 47, 47, 0.6);
 }
 ui-button:active,
 ui-togglebutton:active,
 ui-dropdownbutton:active,
 ui-tabcountbutton:active,
 ui-notificationbutton:active {
-  background-image: linear-gradient(#020202, #101112 40%, #191b1d);
+  background-color: #4e4e4e;
 }
 ui-button[disabled],
 ui-togglebutton:disabled,
@@ -684,7 +675,7 @@ ui-dropdownbutton:disabled,
 ui-tabcountbutton:disabled,
 ui-notificationbutton:disabled {
   color: #999;
-  background-image: linear-gradient(#484e55, #3a3f44 60%, #313539);
+  background-color: #777777;
   cursor: not-allowed;
 }
 
@@ -984,4 +975,25 @@ janus-ui-main {
 }
 ui-content[align="right"] {
   align-content: end;
+}
+
+/* Scrollbar Custom
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #4e4e4e; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #626262; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #7c7c7c; 
 }

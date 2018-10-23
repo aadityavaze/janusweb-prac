@@ -1572,8 +1572,8 @@ span.engine_thing_object_Bone:before {
 
 .dark  {
   margin: 0;
-  padding: 0;
-  color: #c8c8c8;
+  padding: 2px;
+  color: #eeeeee;
   background: #303030 url(/images/elation/background-dark.png);
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }

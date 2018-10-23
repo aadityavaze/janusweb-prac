@@ -6,7 +6,7 @@ elation.elements.define('janus.ui.settings', class extends elation.elements.base
     this.innerHTML = elation.template.get('janus.ui.settings');
     document.getElementById("basic_selector").getElementsByTagName("ui-item")[0].onclick = function(){
 		console.log('Cube was clicked!'); 
-     player.setAvatar('<FireBoxRoom>\n  <Assets>\n    <AssetObject id="screen" src="https://web.janusvr.com/media/assets/primitives/cube.obj" mtl="https://web.janusvr.com/media/assets/hoverscreen.mtl" />\n  </Assets>\n  <Room>\n    <Ghost id="januswebuser" col="#ffffff" lighting="true" head_id="screen" head_pos="0 1.4 0" body_id="" eye_pos="0 1.6 0" userid_pos="0 0.5 0" cull_face="back" />\n  </Room>\n</FireBoxRoom>');
+     player.setAvatar('<FireBoxRoom>\n  <Assets>\n    <AssetObject id="screen" src="https://web.janusvr.com/media/assets/primitives/cube.obj" mtl="https://web.janusvr.com/media/assets/hoverscreen.mtl" />\n  </Assets>\n  <Room>\n    <Ghost id="januswebuser" col="#ffffff" lighting="true" head_id="screen" head_pos="0 1.4 0" body_id="" eye_pos="0 0.8s 0" userid_pos="0 0.5 0" cull_face="back" />\n  </Room>\n</FireBoxRoom>');
 	}
     
   }
