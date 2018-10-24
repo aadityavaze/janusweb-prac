@@ -44,23 +44,23 @@ janus-ui-urlbar h1 {
 }
 janus-ui-urlbar>ui-input>input {
   margin-top: .1em;
-  border: 1px solid #999;
-  padding: 0 .2em;
+  border: 0;
+  padding: 0.4em .2em .4em 1em;
   outline: none;
   box-shadow: 0 0 2px rgba(0,0,0,.8);
   font-size: .9em;
   width: 100%;
-  background: rgba(128,128,128,.5);
+  background: rgba(0, 0, 0, 0.65);
   color: white;
+  border-radius: 100px;
   text-shadow: 0 0 1px black;
 }
 janus-ui-urlbar>ui-input>input:hover {
-  background: rgba(128,128,128,.8);
+  background: #4d4d4d;
 }
 janus-ui-urlbar>ui-input>input:focus {
-  background: rgba(255,255,255,1);
-  color: black;
-  padding: .2em;
+  background: #313131;
+  color: white;
   text-shadow: none;
 }
 janus-ui-navigation janus-ui-urlbar {
@@ -146,8 +146,7 @@ janus-ui-statusindicator>ui-tooltip ul {
 }
 janus-ui-urlbar-suggestions {
   display: block;
-  background: #333;
-  border: 1px solid black;
+  background: #313131;
   width: 50em;
   max-width: 100%;
 }

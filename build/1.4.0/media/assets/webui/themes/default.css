@@ -16,6 +16,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+    overflow: hidden;
 }
 h2 {
   border: 1px solid black;
@@ -110,12 +111,12 @@ ui-grid[scrollable-y] {
 ui-grid>ui-item {
   display: inline-block;
   border-radius: 0em;
-  background: rgba(0,0,0,.1);
+  background: #4b4b4b;
   margin: .2em;
   padding: .2em;
 }
 ui-grid>ui-item[hover] {
-  background-color: rgba(203, 203, 203, 0.06);
+  background-color: rgba(255,255,255,0.05);
 }
 ui-grid.twocolumn>ui-item {
   width: 50%;
@@ -163,14 +164,13 @@ ui-tabs>ui-tab {
   position: relative;
   border: 0px solid black;
   border-top: 0;
-  padding: .5em;
-  background: #4e4e4e;
+  background: #4b4b4b;
 }
 ui-tabs>ui-tabbar {
   position: relative;
   display: block;
   color: #efefef;
-  border-bottom: 0px solid #1c1e22;
+  background: #313131;
   font-size: .8em;
   z-index: -1px;
   order: -1;
@@ -180,23 +180,23 @@ ui-tabs>ui-tabbar>ui-button,
 ui-tabs>ui-tabbar>ui-tabcountbutton {
   min-width: 5em;
   text-align: center;
-  padding: .25em .4em;
-  border: 0px solid #1c1e22;
-  border-bottom: 0px solid #1c1e22;
   border-radius: 0;
   margin-bottom: 0;
   white-space: nowrap;
   display: inline-block;
 }
-ui-tabs>ui-tabbar>ui-button[selected],
-ui-tabs>ui-tabbar>ui-button[selected][hover],
-ui-tabs>ui-tabbar>ui-tabcountbutton[selected],
-ui-tabs>ui-tabbar>ui-tabcountbutton[selected][hover] {
-  background-color: rgba(78, 78, 78, 0.58);
-  background-repeat: no-repeat;
+
+ui-tabs>ui-tabbar>ui-tabcountbutton[selected]{
+    
 }
+ui-tabs>ui-tabbar>ui-button[selected]{
+  background-color: #4b4b4b;
+}
+ui-tabs>ui-tabbar>ui-button[selected][hover],
+ui-tabs>ui-tabbar>ui-tabcountbutton[selected][hover],
 ui-tabs>ui-tabbar>ui-button[hover],
 ui-tabs>ui-tabbar>ui-tabcountbutton[hover] {
+    background-color: rgba(255, 255, 255, 0.05);
 }
 ui-tabs>ui-tabbar>ui-button[disabled],
 ui-tabs>ui-tabbar>ui-tabcountbutton[disabled] {
@@ -275,7 +275,7 @@ ui-window>ui-window-titlebar {
   overflow: hidden;
   white-space: nowrap;
   vertical-align: middle;
-  border-bottom: 1px solid #5a5a5a;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.03);
 }
 ui-window.state_movable>ui-window-titlebar:hover {
   cursor: -webkit-grab;
@@ -465,18 +465,17 @@ ui-toggle {
   display: flex;
 }
 ui-toggle>div {
-  border: 1px solid black;
-  border-radius: .5em;
-  padding: .5em;
+  border-radius: 1000px;
   position: relative;
   user-select: none;
   -ms-user-select: none;
   cursor: pointer;
   z-index: 2;
   display: inline-block;
-  width: 2em;
+  width: 2.7em;
+  height: 1.5em;
   vertical-align: middle;
-  margin: .2em .8em .2em .4em;
+  background: #393939;
 }
 ui-toggle[align="left"]>div {
   order: -1;
@@ -487,42 +486,30 @@ ui-toggle input {
 ui-toggle span {
   cursor: pointer;
 }
-ui-toggle>div::before {
-  display: block;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  width: 50%;
-  background: #ef5252;
-  content: ' ';
-  z-index: -1;
-  border-radius: 0 .5em .5em 0;
-  box-shadow: 2px 0 5px rgba(0,0,0,.8);
-}
+
 ui-toggle>div::after {
   display: block;
   position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  width: 50%;
+  width: 38%;
   content: ' ';
-  z-index: -1;
-  border-radius: .5em 0 0 .5em;
-  box-shadow: 0px 0px 5px rgba(0,0,0,.8);
+  position: absolute;
+  left: 0.225em;
+  top:0.225em;
+  height: 70%;
+  background: rgba(255, 255, 255, 0.92);
+  border-radius: 90px;
+  transition: 0.3s;    
+    
+    
 }
-ui-toggle[checked]>div::before {
-  right: auto;
-  left: 0;
-  background: #47b747;
-  box-shadow: -2px 0 5px rgba(0,0,0,.8);
-  border-radius: .5em 0 0 .5em;
+ui-toggle[checked]>div{
+
 }
+
 ui-toggle[checked]>div::after {
-  right: 0;
-  left: auto;
-  border-radius: 0 .5em .5em 0;
+  	left: calc(100% - 0.225em);
+	transform: translateX(-100%);
+    background: #4cb96f;
 }
 ui-toggle[disabled]>div {
   color: #999;
@@ -531,10 +518,9 @@ ui-toggle[disabled]>div {
 ui-toggle[disabled] span {
   cursor: not-allowed;
 }
-ui-toggle[disabled]>div::before {
-  cursor: not-allowed;
-  background: #666;
-}
+
+
+
 
 /* <ui-checkbox> */
 ui-checkbox {
@@ -653,21 +639,22 @@ ui-notificationbutton {
   -ms-user-select: none;
   -moz-user-select: none;
   user-select: none;
-  background-color: #343434;
+  background-color: #313131;
 }
 ui-button[hover],
 ui-togglebutton[hover],
 ui-dropdownbutton[hover],
 ui-tabcountbutton[hover],
 ui-notificationbutton[hover] {
-  background-color: rgba(47, 47, 47, 0.6);
+  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.2);
 }
 ui-button:active,
 ui-togglebutton:active,
 ui-dropdownbutton:active,
 ui-tabcountbutton:active,
 ui-notificationbutton:active {
-  background-color: #4e4e4e;
+  background-color: #4b4b4b;
 }
 ui-button[disabled],
 ui-togglebutton:disabled,
@@ -765,17 +752,15 @@ ui-buttonbar {
 }
 ui-buttonbar>* {
   border-radius: 0;
-  border-right: 1px solid #333;
   border-left: 0;
   display: inline-block;
 }
 ui-buttonbar>*:first-child {
-  border-radius: .5em 0 0 .5em;
+  border-radius: 0;
   border-left: 1px solid transparent;
 }
 ui-buttonbar>*:last-child {
-  border-radius: 0 .5em .5em 0;
-  border-right: 1px solid transparent;
+  border-radius: 0;
 }
 
 /* <ui-buttonlist> */
@@ -874,12 +859,10 @@ ui-collapsiblepanel {
   max-height: calc(100% - 2em);
   min-height: .8em;
   position: relative;
-  border: 1px solid black;
-  background: #333;
+  background: #6a6a6a;
   border-radius: 0;
-  padding: .2em;
-  transition: width 150ms ease-out,height 150ms ease-out,min-height 150ms ease-out;
-  box-shadow: 0 0 8px black;
+  transition: width 250ms ease-out,height 250ms ease-out,min-height 250ms ease-out;
+  box-shadow: 0 0 8px #222;
 }
 ui-collapsiblepanel.default {
   width: 24em;
@@ -890,7 +873,7 @@ ui-collapsiblepanel>.container {
   overflow: hidden;
 }
 ui-collapsiblepanel>.container>.container-inner {
-  transition: transform 150ms ease-out;
+  transition: transform 250ms ease-out;
   transform: translate(0, 0);
   display: flex;
   flex-direction: column;
@@ -943,7 +926,6 @@ ui-collapsiblepanel>ui-togglebutton.collapse {
   position: absolute;
   transform-origin: bottom left;
   background: #333;
-  border: 1px solid black;
   line-height: 1em;
 }
 ui-collapsiblepanel[top]>ui-togglebutton.collapse {

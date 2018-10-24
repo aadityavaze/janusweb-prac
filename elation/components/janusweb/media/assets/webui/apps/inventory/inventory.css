@@ -5,16 +5,16 @@ ui-grid.models {
 }
 ui-grid.models>ui-item {
   height: auto;
-  padding: 0;
   position: relative;
   transition: transform ease-out 100ms;
   border-radius: 0;
   margin: 0;
   display: flex;
+  padding: 0.2em;
+
 }
 ui-grid.models>ui-item h2 {
   font-size: .8em;
-  font-weight: bold;
   margin: 0;
   background: transparent;
   border: none;
@@ -24,9 +24,7 @@ ui-grid.models>ui-item h2 {
   bottom: -1px;
   left: 0;
   right: 0;
-  background: rgba(0,0,0,.5);
   padding: .2em .4em;
-  border-radius: 0 0 10px 10px;
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
@@ -45,7 +43,8 @@ ui-grid.models>ui-item img {
 ui-grid.models>ui-item a {
   margin: 0;
   padding: 0;
-  flex: 1 1;
+  width: 100%;
+  height: 100%;
 }
 ui-grid.models>ui-item p {
   display: none;
@@ -61,8 +60,15 @@ ui-grid.models>ui-item:hover p {
 ui-grid.models>ui-item:hover {
   background: rgba(254, 254, 254, 0.15);
   position: relative;
-  z-index: 1;
+ 
 }
+
+.ui-image-container{
+    position: relative;
+    
+}
+
+
 /*
 #pagination {
   position: fixed;
